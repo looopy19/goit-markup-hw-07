@@ -21,7 +21,7 @@
   </head>
   <body class="page">
     <!-- Шапка сайта -->
-    <header class="page-header portfolio">
+    <header class="page-header page-header--portfolio">
       <div class="container">
         <nav class="main-nav">
           <a href="" class="logo animate__fadeInLeft">
@@ -62,39 +62,40 @@
       </div>
     </header>
     <main>
-      <section class="portfolio">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Портфолио</h2>
-          <div class="portfolio-nav">
-            <ul class="nav-list">
-              <li>
+          <div class="portfolio-filter">
+            <ul class="filter-list">
+              <li class="filter-list__item">
                 <button type="button" class="button">Все</button>
               </li>
-              <li>
+              <li class="filter-list__item">
                 <button type="button" class="button">Веб-сайты</button>
               </li>
-              <li>
+              <li class="filter-list__item">
                 <button type="button" class="button">Приложения</button>
               </li>
-              <li>
+              <li class="filter-list__item">
                 <button type="button" class="button">Дизайн</button>
               </li>
-              <li>
+              <li class="filter-list__item">
                 <button type="button" class="button">Маркетинг</button>
               </li>
             </ul>
           </div>
           <div class="projects">
             <ul class="projects-list">
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/website1.jpg"
                         width="370"
                         height="294"
                         alt="Интернет страница открыта на компьютере"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -104,21 +105,22 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3>Технокряк</h3>
-                      <p>Вебсайт</p>
+                      <h3 class="card-content__title">Технокряк</h3>
+                      <p class="card-content__desc">Вебсайт</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/design1.jpg"
                         width="370"
                         height="294"
                         alt="Баскетболисты бросают мяч"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -128,23 +130,24 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3>
+                      <h3 class="card-content__title">
                         Постер <span lang="en"> New Orlean vs Golden Star</span>
                       </h3>
-                      <p>Дизайн</p>
+                      <p class="card-content__desc">Дизайн</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/app1.jpg"
                         width="370"
                         height="294"
                         alt="Логотип ресторана"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -154,21 +157,24 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3>Ресторан <span lang="en">Seafood</span></h3>
-                      <p>Приложение</p>
+                      <h3 class="card-content__title">
+                        Ресторан <span lang="en">Seafood</span>
+                      </h3>
+                      <p class="card-content__desc">Приложение</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/marketing1.jpg"
                         width="370"
                         height="294"
                         alt="Наушники"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -178,21 +184,24 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3>Проект <span lang="en">Prime</span></h3>
-                      <p>Маркетинг</p>
+                      <h3 class="card-content__title">
+                        Проект <span lang="en">Prime</span>
+                      </h3>
+                      <p class="card-content__desc">Маркетинг</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/app2.jpg"
                         width="370"
                         height="294"
                         alt="Белый и коричневый ящики"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -202,21 +211,24 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3>Проект <span>Boxes</span></h3>
-                      <p>Приложение</p>
+                      <h3 class="card-content__title">
+                        Проект <span>Boxes</span>
+                      </h3>
+                      <p class="card-content__desc">Приложение</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/website2.jpg"
                         width="370"
                         height="294"
                         alt="Монитор"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -226,21 +238,24 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3 lang="en">Inspiration has no Borders</h3>
-                      <p>Веб-сайт</p>
+                      <h3 lang="en" class="card-content__title">
+                        Inspiration has no Borders
+                      </h3>
+                      <p class="card-content__desc">Веб-сайт</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/design2.jpg"
                         width="370"
                         height="294"
                         alt="Открытая книга"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -250,21 +265,24 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3>Издание <span lang="en">Limited Edition</span></h3>
-                      <p>Дизайн</p>
+                      <h3 class="card-content__title">
+                        Издание <span lang="en">Limited Edition</span>
+                      </h3>
+                      <p class="card-content__desc">Дизайн</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/marketing2.jpg"
                         width="370"
                         height="294"
                         alt="Бирка"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -274,21 +292,24 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3>Проект <span lang="en">LAB</span></h3>
-                      <p>Маркетинг</p>
+                      <h3 class="card-content__title">
+                        Проект <span lang="en">LAB</span>
+                      </h3>
+                      <p class="card-content__desc">Маркетинг</p>
                     </div>
                   </a>
                 </div>
               </li>
-              <li>
-                <div class="card">
-                  <a href="" class="project-link">
+              <li class="projects-list__item">
+                <div class="project-card">
+                  <a href="" class="projects-card__link">
                     <div class="card-wrapper">
                       <img
                         src="./images/app3.jpg"
                         width="370"
                         height="294"
                         alt="Руки печатают по клавиатуре"
+                        class="projects-card__thumb"
                       />
                       <p class="card-overlay">
                         Технокряк это современная площадка распространения
@@ -298,8 +319,10 @@
                       </p>
                     </div>
                     <div class="card-content">
-                      <h3 lang="en">Growing Business</h3>
-                      <p>Приложение</p>
+                      <h3 lang="en" class="card-content__title">
+                        Growing Business
+                      </h3>
+                      <p class="card-content__desc">Приложение</p>
                     </div>
                   </a>
                 </div>
@@ -312,44 +335,48 @@
     <!-- Подвал -->
     <footer class="page-footer">
       <div class="container">
-        <div class="footer-flex">
-          <div class="footer-contacts">
-            <a href="" class="logo footer">
-              <span class="logo-part">Web</span>Studio
+        <div class="footer">
+          <div class="footer-nav">
+            <a href="" class="logo logo--footer">
+              <span class="logo__part">Web</span>Studio
             </a>
-            <address class="bottom-contacts">
-              <p>г. Киев, пр-т Леси Украинки, 26</p>
-              <a href="mailto:info@example.com">info@example.com</a>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <address class="footer-nav__contacts">
+              <p class="footer-nav__address">г. Киев, пр-т Леси Украинки, 26</p>
+              <a href="mailto:info@example.com" class="footer-nav__link"
+                >info@example.com</a
+              >
+              <a href="tel:+380991111111" class="footer-nav__link"
+                >+38 099 111 11 11</a
+              >
             </address>
           </div>
           <div class="footer-social">
-            <p class="join">Присоединяйтесь</p>
-            <ul class="social-list footer">
-              <li class="social-item-footer">
-                <a href="" class="social-link-footer">
-                  <svg class="social-icon-footer">
+            <p class="footer__title">Присоединяйтесь</p>
+            <ul class="social-list social-list--footer">
+              <li class="social-list__item">
+                <a href="" class="social-list__link social-list__link--footer">
+                  <svg class="social-list__icon social-list__icon--footer">
                     <use href="./images/sprite.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-item-footer">
-                <a href="" class="social-link-footer">
-                  <svg class="social-icon-footer">
+              <li class="social-list__item">
+                <a href="" class="social-list__link social-list__link--footer">
+                  <svg class="social-list__icon social-list__icon--footer">
                     <use href="./images/sprite.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-item-footer">
-                <a href="" class="social-link-footer">
-                  <svg class="social-icon-footer">
+              <li class="social-list__item">
+                <a href="" class="social-list__link social-list__link--footer">
+                  <svg class="social-list__icon social-list__icon--footer">
                     <use href="./images/sprite.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-item-footer">
-                <a href="" class="social-link-footer">
-                  <svg class="social-icon-footer">
+              <li class="social-list__item">
+                <a href="" class="social-list__link social-list__link--footer">
+                  <svg class="social-list__icon social-list__icon--footer">
                     <use href="./images/sprite.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -357,17 +384,17 @@
             </ul>
           </div>
           <div class="footer-subscribe">
-            <p class="join">Подпишитесь на рассылку</p>
-            <form class="footer-form">
+            <p class="footer__title">Подпишитесь на рассылку</p>
+            <form class="subscribe-form">
               <input
                 type="email"
                 name="email"
                 placeholder="E-mail"
-                class="email-input"
+                class="subscribe-form__input"
               />
 
-              <button type="submit" class="btn footer">
-                Подписаться<svg class="send-icon" width="24" height="24">
+              <button type="submit" class="btn btn--footer">
+                Подписаться<svg class="btn__icon" width="24" height="24">
                   <use href="./images/sprite.svg#send"></use>
                 </svg>
               </button>
