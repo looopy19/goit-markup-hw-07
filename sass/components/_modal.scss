@@ -167,7 +167,7 @@
   }
 
   .modal-form__checkbox:checked + &::before {
-    background-image: url("/images/checked.svg");
+    background-image: url("../images/checked.svg");
     background-color: $accent-color;
     background-size: contain;
     background-origin: border-box;
